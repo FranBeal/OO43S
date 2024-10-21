@@ -4,7 +4,6 @@ import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 
 // Classe Pessoa implementa Serializable para permitir a serialização de seus objetos
 public class Pessoa implements Serializable {

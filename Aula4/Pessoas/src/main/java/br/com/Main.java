@@ -27,7 +27,7 @@ public class Main {
         pessoas[2].setDataNascimento(LocalDate.parse("2004-07-06"));
 
         // Definindo o caminho do arquivo onde o objeto será gravado
-        File file = new File("D:\\dev\\OO\\Aula4\\Pessoas\\pessoas.dat");
+        File file = new File("D:\\dev\\OO43S\\Aula4\\Pessoas\\pessoas.dat");
 
         // Serializa o objeto pessoa e grava no arquivo
         ser.gravarNoArquivo(file, pessoas);
